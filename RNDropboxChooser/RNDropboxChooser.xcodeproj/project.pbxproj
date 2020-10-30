@@ -7,20 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		116878481BF5A6F60007784F /* libDBChooser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 116878461BF5A6E20007784F /* libDBChooser.a */; };
 		1173C3161BF5A2A7000FACE3 /* RNDropboxChooser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1173C3151BF5A2A7000FACE3 /* RNDropboxChooser.h */; };
 		1173C3181BF5A2A7000FACE3 /* RNDropboxChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1173C3171BF5A2A7000FACE3 /* RNDropboxChooser.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		116878451BF5A6E20007784F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 116878411BF5A6E20007784F /* DBChooser.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9B861A4C17716C3200CCB299;
-			remoteInfo = DBChooser;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		1173C3101BF5A2A7000FACE3 /* CopyFiles */ = {
@@ -36,7 +25,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		116878411BF5A6E20007784F /* DBChooser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DBChooser.xcodeproj; path = "Libraries/dropbox-ios-dropins-sdk-1.2.1/DBChooser.xcodeproj"; sourceTree = "<group>"; };
 		1173C3121BF5A2A7000FACE3 /* libRNDropboxChooser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNDropboxChooser.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1173C3151BF5A2A7000FACE3 /* RNDropboxChooser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNDropboxChooser.h; sourceTree = "<group>"; };
 		1173C3171BF5A2A7000FACE3 /* RNDropboxChooser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNDropboxChooser.m; sourceTree = "<group>"; };
@@ -47,25 +35,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				116878481BF5A6F60007784F /* libDBChooser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		116878421BF5A6E20007784F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				116878461BF5A6E20007784F /* libDBChooser.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		116878471BF5A6E90007784F /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				116878411BF5A6E20007784F /* DBChooser.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -135,33 +113,18 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 1173C3091BF5A2A7000FACE3;
 			productRefGroup = 1173C3131BF5A2A7000FACE3 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 116878421BF5A6E20007784F /* Products */;
-					ProjectRef = 116878411BF5A6E20007784F /* DBChooser.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				1173C3111BF5A2A7000FACE3 /* RNDropboxChooser */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		116878461BF5A6E20007784F /* libDBChooser.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libDBChooser.a;
-			remoteRef = 116878451BF5A6E20007784F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1173C30E1BF5A2A7000FACE3 /* Sources */ = {
